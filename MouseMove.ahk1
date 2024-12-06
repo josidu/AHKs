@@ -7,3 +7,4 @@ random, y, 1, A_ScreenHeight
 mousemove, %x%, %y%
 sleep, 3000
 }
+;Test commit
