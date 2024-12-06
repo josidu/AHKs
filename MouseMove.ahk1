@@ -1,10 +1,12 @@
 #Requires Autohotkey v1.0+
-;A_ScreenWidth A_ScreenHeight
+SysGet, VirtualScreenWidth, 78
+SysGet, VirtualScreenHeight, 79
 Loop
 {
-Random, x, 1, A_ScreenWidth
-random, y, 1, A_ScreenHeight
+;random, x, 1, A_ScreenWidth
+;random, y, 1, A_ScreenHeight
+random, x, 1, VirtualScreenWidth
+random, y, 1, VirtualScreenHeight
 mousemove, %x%, %y%
 sleep, 3000
 }
-;Test commit
