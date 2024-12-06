@@ -10,3 +10,4 @@ random, y, 1, VirtualScreenHeight
 mousemove, %x%, %y%
 sleep, 3000
 }
+Teste
